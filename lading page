@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Landing page de divulgação de produto">
+    <title>Landing Page - Produto</title>
+    
+   
+<style>
+      
+
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilo geral */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px 0;
+        }
+
+        header .logo {
+            text-align: center;
+            font-size: 24px;
+        }
+
+        header nav {
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            font-size: 18px;
+        }
+
+        /* Seção de Introdução */
+        .intro-produto {
+            display: flex;
+            justify-content: space-between;
+            padding: 60px 20px;
+            background-color: #fff;
+            align-items: center;
+        }
+
+        .intro-produto h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .intro-produto p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .intro-produto .botao {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        /* Benefícios */
+        .beneficios {
+            padding: 40px 20px;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+
+        .beneficios h2 {
+            margin-bottom: 30px;
+        }
+
+        .beneficio {
+            width: 30%;
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        .beneficio h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .beneficio p {
+            font-size: 16px;
+        }
+
+        /* Depoimentos */
+        .depoimentos {
+            background-color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .depoimento {
+            margin-bottom: 20px;
+        }
+
+        .depoimento p {
+            font-style: italic;
+        }
+
+        /* Chamada para Ação */
+        .cta {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .cta .botao {
+            background-color: #28a745;
+            padding: 15px 25px;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer a {
+            color: #28a745;
+        }
+    </style>
+
+</head>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    
+    <
+<header>
+        <div class="logo">Logo da Empresa</div>
+        
+       
+<nav>
+            <ul>
+                <li><a href="#produto">Produto</a></li>
+                <li><a href="#beneficios">Benefícios</a></li>
+                
+   
+<li><a href="#depoimentos">Depoimentos</a></li>
+                
+               
+<li><a href="#contato">Contato</a></li>
+            
+            </ul>
+
+            </nav>
+    </header>
+
+    
+
+    
+<!-- Introdução ao Produto -->
+    <section id="produto" class="intro-produto">
+        
+ 
+<div class="conteudo">
+            <h1>Conheça a coca cola </h1>
+           
+            <a href="#cta" class="botao">Saiba Mais</a>
+        </div>
+        
+      
+<img src="jpge.2.jpg" alt="jpge.1.jpg" class="imagem-produto" width="400">
+    </section>
+
+    <!-- Benefícios -->
+    <section id="beneficios" class="beneficios">
+        <h2>promove, em primeira instância, um grande estoque de glicogênio muscular – que reduz a percepção de esforço, diminui o cansaço e repõe estoques.</h2>
+        
+   
+<div class="beneficio">
+            <h3>Benefício 1</h3>
+            <p>É saudável beber Coca-Cola? .</p>
+            <p> o consumo frequente de refrigerante aumenta o risco de câncer, mesmo em pessoas que estão dentro do peso.</p>
+        </div>
+        
+   
+<div class="beneficio">
+            
+            
+<h3>Benefício 2</h3>
+            
+ 
+<p>Descrição detalhada do benefício 2.</p>
+        </div>
+        <div class="beneficio">
+            <h3>Benefício 3</h3>
+            <p>Porque tomar refrigerante é tão bom?</p>
+            <p> Quando há entrada de uma bebida muito doce no organismo, vários fatores do eixo entre o intestino e o cérebro avisam ao pâncreas para produzir mais insulina e estimulam a liberação de dopamina, neurotransmissor ligado à sensação de satisfação e bem-estar.</p>
+        
+     
+</div>
+    
+</sectio>
+</section>
+
+    <!-- Depoimentos -->
+    <section id="depoimentos" class="depoimentos">
+        <h2>O que nossos clientes dizem</h2>
+        <div class="depoimento">
+            
+    
+<p>"Produto incrível, mudou minha vida!" - João Silva</p>
+        </div>
+        <div class="depoimento">
+            
+       
+<p>"Melhor investimento que fiz este ano!" - Maria Souza</p>
+        </div>
+    </section>
+
+    <!-- Chamada para Ação -->
+    
+    
+<section id="cta" class="cta">
+        <h2>Adquira o seu Produto Agora!</h2>
+        <p>Não perca a chance de melhorar sua rotina com o Produto X. Garanta já o seu!</p>
+        <a href="comprar.html" class="botao">Comprar Agora</a>
+    </section>
+
+    <!-- Rodapé -->
+    <footer id="contato">
+        <p>&copy; 2024 Nome da Empresa | <a href="privacidade.html">Política de Privacidade</a></p>
+        <p>Contato: contato@empresa.com</p>
+    </footer>
+
+
+
+</bod>
+</body>
+</html>
